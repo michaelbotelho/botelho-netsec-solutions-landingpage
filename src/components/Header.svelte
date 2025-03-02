@@ -6,7 +6,7 @@
     <div class="max-w-[1400px] mx-auto w-full flex items-center justify p-4 py-6">
         <a href="/" class="flex items-center">
             <img src="favicon.png" alt="Botelho NetSec Solutions" class="w-10 h-10 mr-4">
-            <h1 class="text-lg md:text-xl lg:text-2xl font-semibold">Botelho NetSec Solutions</h1>
+            <h1 class="text-lg md:text-xl lg:text-2xl font-bold">Botelho NetSec Solutions</h1>
         </a>
         <button class="ml-auto md:hidden grid place-items-center">
             <i class="fa-solid fa-bars"></i>
