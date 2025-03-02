@@ -24,7 +24,7 @@ span {
 
 .bgGrid {
     background-size: 40px 40px;
-    background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
+    background-image: linear-gradient(to right, black 1px, transparent 1px), linear-gradient(to bottom, black 1px, transparent 1px);
 }
 
 button,
@@ -37,11 +37,11 @@ button,
     font-family: inherit;
     background-color: white;
     cursor: pointer;
-    transition: background-color .2s;
+    transition: border-color .2s;
 }
 
 button:hover {
-    background-color: oklch(0.438 0.218 303.724 / 0.3);
+    border-color: oklch(0.438 0.218 303.724 / .8);
 }
 
 button:focus,
@@ -50,10 +50,15 @@ button:focus-visible {
 }
 
 .specialBtn {
-    border-color: oklch(0.438 0.218 303.724 / 0.7);
+    border-color: rgba(0, 0, 0, 0.619);
 }
 
 .specialBtnDark {
     border-color: oklch(0.438 0.218 303.724);
     color: white;
+}
+
+.specialBtn:hover {
+    border-color: oklch(0.438 0.218 303.724);
+    background-color: oklch(0.438 0.218 303.724 / .2);
 }
