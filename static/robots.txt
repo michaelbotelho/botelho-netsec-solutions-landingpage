@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /_svelte_kit/
+Disallow: /node_modules/
+Disallow: /static/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /admin/
+
+# Allow all other pages
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.yourwebsite.com/sitemap.xml
