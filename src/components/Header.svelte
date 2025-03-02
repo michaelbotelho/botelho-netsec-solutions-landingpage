@@ -3,7 +3,7 @@
 </script>
 
 <header class="flex flex-col sticky top-0 z-20 bg-white">
-    <div class="max-w-[1400px] mx-auto w-full flex items-center justify p-4 py-6">
+    <div class="max-w-[1400px] mx-auto w-full flex items-center justify p-2 py-6">
         <a href="/" class="flex items-center">
             <img src="favicon.png" alt="Botelho NetSec Solutions" class="w-10 h-10 mr-4">
             <h1 class="text-lg md:text-xl lg:text-2xl font-bold">Botelho NetSec Solutions</h1>
