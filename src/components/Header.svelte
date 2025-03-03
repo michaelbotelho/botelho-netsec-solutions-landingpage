@@ -12,13 +12,14 @@
             <i class="fa-solid fa-bars"></i>
         </button>
         <nav class="ml-auto hidden md:flex font-medium items-center gap-4 lg:gap-6">
-            <a class="duration-200 hover:text-purple-800 cursor-pointer">Products</a>
-            <a class="duration-200 hover:text-purple-800 cursor-pointer">Solutions</a>
+            <a class="duration-200 hover:text-purple-800 cursor-pointer">About</a>
+            <a class="duration-200 hover:text-purple-800 cursor-pointer">Services</a>
+            <a class="duration-200 hover:text-purple-800 cursor-pointer">Consulting</a>
             <a class="duration-200 hover:text-purple-800 cursor-pointer">Reviews</a>
             <a class="duration-200 hover:text-purple-800 cursor-pointer">Pricing</a>
             <a class="duration-200 hover:text-purple-800 cursor-pointer">FAQ</a>
             <button class="specialBtn">
-                <p>Free quote today</p> 
+                <p>Secure your network</p> 
             </button>
         </nav>
     </div>
