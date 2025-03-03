@@ -24,12 +24,12 @@
             <i class="fa-solid fa-bars"></i>
         </button>
         <nav class="ml-auto hidden md:flex font-medium items-center gap-4 lg:gap-6">
-            <a href="#about" class="duration-200 hover:text-purple-800 cursor-pointer">About</a>
-            <a href="#services" class="duration-200 hover:text-purple-800 cursor-pointer">Services</a>
-            <a href="#consulting" class="duration-200 hover:text-purple-800 cursor-pointer">Consulting</a>
-            <a href="#reviews" class="duration-200 hover:text-purple-800 cursor-pointer">Reviews</a>
-            <a href="#pricing" class="duration-200 hover:text-purple-800 cursor-pointer">Pricing</a>
-            <a href="#faqs" class="duration-200 hover:text-purple-800 cursor-pointer">FAQ</a>
+            <a class="duration-200 [&:hover]:text-purple-800 cursor-pointer">About</a>
+            <a href="#services" class="duration-200 [&:hover]:text-purple-800 cursor-pointer">Services</a>
+            <a href="#consulting" class="duration-200 [&:hover]:text-purple-800 cursor-pointer">Consulting</a>
+            <a href="#reviews" class="duration-200 [&:hover]:text-purple-800 cursor-pointer">Reviews</a>
+            <a href="#pricing" class="duration-200 [&:hover]:text-purple-800 cursor-pointer">Pricing</a>
+            <a href="#faqs" class="duration-200 [&:hover]:text-purple-800 cursor-pointer">FAQs</a>
             <button class="specialBtn">
                 <p>Secure your network</p> 
             </button>
@@ -45,38 +45,33 @@
                         <i class="fa-solid fa-times text-xl"></i>
                     </button>
                 </div>
-                <div class="flex flex-col gap-4 flex-1 font-semibold">
-                    <a class="text-left text-2xl border-none outline-none p-2 px-4 duration-200 hover:text-purple-800 cursor-pointer" href="#about">
+                <div class="flex flex-col flex-1 gap-4 font-medium">
+                    <a class="text-left text-2xl border-none outline-none p-2 px-4 duration-200 [&:hover]:text-purple-800 [&:hover]:pl-6 cursor-pointer" href="#about">
                         About
-                        <i class="fa-solid fa-chevron-right text-xl px-2"></i>
-                    </a>
-                    <a class="text-left text-2xl border-none outline-none p-2 px-4 group duration-200 group-hover:text-purple-800 cursor-pointer" href="#services">
+                        <i class="fa-solid fa-chevron-right text-lg px-2"></i>
+                    </a><a class="text-left text-2xl border-none outline-none p-2 px-4 duration-200 [&:hover]:text-purple-800 [&:hover]:pl-6 cursor-pointer" href="#services">
                         Services
-                        <i class="fa-solid fa-chevron-right text-xl px-2"></i>
+                        <i class="fa-solid fa-chevron-right text-lg px-2"></i>
                     </a>
-                    <a class="text-left text-2xl border-none outline-none p-2 px-4 group duration-200 group-hover:text-purple-800 cursor-pointer" href="#consulting">
+                    <a class="text-left text-2xl border-none outline-none p-2 px-4 duration-200 [&:hover]:text-purple-800 [&:hover]:pl-6 cursor-pointer" href="#consulting">
                         Consulting
-                        <i class="fa-solid fa-chevron-right text-xl px-2"></i>
+                        <i class="fa-solid fa-chevron-right text-lg px-2"></i>
                     </a>
-                    <a class="text-left text-2xl border-none outline-none p-2 px-4 group duration-200 group-hover:text-purple-800 cursor-pointer" href="#reviews">
+                    <a class="text-left text-2xl border-none outline-none p-2 px-4 duration-200 [&:hover]:text-purple-800 [&:hover]:pl-6 cursor-pointer" href="#reviews">
                         Reviews
-                        <i class="fa-solid fa-chevron-right text-xl px-2"></i>
+                        <i class="fa-solid fa-chevron-right text-lg px-2"></i>
                     </a>
-                    <a class="text-left text-2xl border-none outline-none p-2 px-4 group duration-200 group-hover:text-purple-800 cursor-pointer" href="#pricing">
+                    <a class="text-left text-2xl border-none outline-none p-2 px-4 duration-200 [&:hover]:text-purple-800 [&:hover]:pl-6 cursor-pointer" href="#pricing">
                         Pricing
-                        <i class="fa-solid fa-chevron-right text-xl px-2"></i>
+                        <i class="fa-solid fa-chevron-right text-lg px-2"></i>
                     </a>
-                    <a class="text-left text-2xl border-none outline-none p-2 px-4 group duration-200 group-hover:text-purple-800 cursor-pointer" href="#faqs">
+                    <a class="text-left text-2xl border-none outline-none p-2 px-4 duration-200 [&:hover]:text-purple-800 [&:hover]:pl-6 cursor-pointer" href="#faqs">
                         FAQs
-                        <i class="fa-solid fa-chevron-right text-xl px-2"></i>
+                        <i class="fa-solid fa-chevron-right text-lg px-2"></i>
                     </a>
-                  
-                   
-
                     
                 </div>
-            </div>
-                    
+            </div>        
         {/if}
     </div>
 </header>
