@@ -11,7 +11,7 @@
         <button class="ml-auto md:hidden grid place-items-center">
             <i class="fa-solid fa-bars"></i>
         </button>
-        <nav class="ml-auto hidden md:flex items-center gap-4 lg:gap-6">
+        <nav class="ml-auto hidden md:flex font-medium items-center gap-4 lg:gap-6">
             <a class="duration-200 hover:text-purple-800 cursor-pointer">Products</a>
             <a class="duration-200 hover:text-purple-800 cursor-pointer">Solutions</a>
             <a class="duration-200 hover:text-purple-800 cursor-pointer">Reviews</a>

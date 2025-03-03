@@ -10,7 +10,7 @@
 <!-- General page structure for landing pages
 header
 hero
-service description
+service cards/descriptions
 user reviews
 faq
 conversion
