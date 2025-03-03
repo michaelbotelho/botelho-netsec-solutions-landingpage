@@ -7,6 +7,7 @@
 {@render children()}
 <Footer />
 
+
 <!-- General page structure for landing pages
 header
 hero
