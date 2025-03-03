@@ -25,11 +25,11 @@
         </button>
         <nav class="ml-auto hidden md:flex font-medium items-center gap-4 lg:gap-6">
             <a class="duration-200 [&:hover]:text-purple-800 cursor-pointer">About</a>
-            <a href="#services" class="duration-200 [&:hover]:text-purple-800 cursor-pointer">Services</a>
-            <a href="#consulting" class="duration-200 [&:hover]:text-purple-800 cursor-pointer">Consulting</a>
-            <a href="#reviews" class="duration-200 [&:hover]:text-purple-800 cursor-pointer">Reviews</a>
-            <a href="#pricing" class="duration-200 [&:hover]:text-purple-800 cursor-pointer">Pricing</a>
-            <a href="#faqs" class="duration-200 [&:hover]:text-purple-800 cursor-pointer">FAQs</a>
+            <a class="duration-200 [&:hover]:text-purple-800 cursor-pointer">Services</a>
+            <a class="duration-200 [&:hover]:text-purple-800 cursor-pointer">Consulting</a>
+            <a class="duration-200 [&:hover]:text-purple-800 cursor-pointer">Reviews</a>
+            <a class="duration-200 [&:hover]:text-purple-800 cursor-pointer">Pricing</a>
+            <a class="duration-200 [&:hover]:text-purple-800 cursor-pointer">FAQs</a>
             <button class="specialBtn">
                 <p>Secure your network</p> 
             </button>
@@ -46,26 +46,26 @@
                     </button>
                 </div>
                 <div class="flex flex-col flex-1 gap-4 font-medium">
-                    <a class="text-left text-2xl border-none outline-none p-2 px-4 duration-200 [&:hover]:text-purple-800 [&:hover]:pl-6 cursor-pointer" href="#about">
+                    <a class="text-left text-2xl border-none outline-none p-2 px-4 duration-200 [&:hover]:text-purple-800 [&:hover]:pl-6 cursor-pointer">
                         About
                         <i class="fa-solid fa-chevron-right text-lg px-2"></i>
-                    </a><a class="text-left text-2xl border-none outline-none p-2 px-4 duration-200 [&:hover]:text-purple-800 [&:hover]:pl-6 cursor-pointer" href="#services">
+                    </a><a class="text-left text-2xl border-none outline-none p-2 px-4 duration-200 [&:hover]:text-purple-800 [&:hover]:pl-6 cursor-pointer">
                         Services
                         <i class="fa-solid fa-chevron-right text-lg px-2"></i>
                     </a>
-                    <a class="text-left text-2xl border-none outline-none p-2 px-4 duration-200 [&:hover]:text-purple-800 [&:hover]:pl-6 cursor-pointer" href="#consulting">
+                    <a class="text-left text-2xl border-none outline-none p-2 px-4 duration-200 [&:hover]:text-purple-800 [&:hover]:pl-6 cursor-pointer">
                         Consulting
                         <i class="fa-solid fa-chevron-right text-lg px-2"></i>
                     </a>
-                    <a class="text-left text-2xl border-none outline-none p-2 px-4 duration-200 [&:hover]:text-purple-800 [&:hover]:pl-6 cursor-pointer" href="#reviews">
+                    <a class="text-left text-2xl border-none outline-none p-2 px-4 duration-200 [&:hover]:text-purple-800 [&:hover]:pl-6 cursor-pointer">
                         Reviews
                         <i class="fa-solid fa-chevron-right text-lg px-2"></i>
                     </a>
-                    <a class="text-left text-2xl border-none outline-none p-2 px-4 duration-200 [&:hover]:text-purple-800 [&:hover]:pl-6 cursor-pointer" href="#pricing">
+                    <a class="text-left text-2xl border-none outline-none p-2 px-4 duration-200 [&:hover]:text-purple-800 [&:hover]:pl-6 cursor-pointer">
                         Pricing
                         <i class="fa-solid fa-chevron-right text-lg px-2"></i>
                     </a>
-                    <a class="text-left text-2xl border-none outline-none p-2 px-4 duration-200 [&:hover]:text-purple-800 [&:hover]:pl-6 cursor-pointer" href="#faqs">
+                    <a class="text-left text-2xl border-none outline-none p-2 px-4 duration-200 [&:hover]:text-purple-800 [&:hover]:pl-6 cursor-pointer">
                         FAQs
                         <i class="fa-solid fa-chevron-right text-lg px-2"></i>
                     </a>
