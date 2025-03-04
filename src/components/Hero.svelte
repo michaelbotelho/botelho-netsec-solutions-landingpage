@@ -11,7 +11,7 @@
         class="flex flex-col gap-10 flex-1 items-center justify-center pb-10 md:pb-14"
     >
         <h2
-            class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl max-w-[1400px] mx-auto w-full text-center font-semibold"
+            class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl max-w-[1400px] mx-auto w-full text-center font-medium"
         >
             <span class="text-purple-700">Secure</span> your network<br />
             with solutions <span class="text-purple-700">tailored</span><br />
