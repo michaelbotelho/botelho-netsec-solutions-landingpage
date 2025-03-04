@@ -1,19 +1,27 @@
 @import "tailwindcss";
 
+
 html {
     scroll-behavior: smooth;
 }
 
+h2,
+h3,
 a,
-p {
-    font-family: 'Montserrat', sans-serif;
+p,
+.inter {
+    font-family: 'Inter', sans-serif;
 }
 
 h1,
-h2,
-h3,
 .libreBaskerville {
     font-family: 'Libre Baskerville', 'sans-serif';
+}
+
+h2,
+h3,
+.inter {
+    font-family: 'Inter', sans-serif;
 }
 
 span {
@@ -32,32 +40,32 @@ button,
     border: 2px solid transparent;
     padding: 0.6em 1.2em;
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 600;
     font-family: inherit;
     background-color: white;
     cursor: pointer;
-    transition: border-color .2s;
+    transition: background-color .2s;
 }
 
 button:hover {
-    border-color: oklch(0.438 0.218 303.724 / .8);
+    color: oklch(0.496 0.265 301.924);
 }
 
 button:focus,
 button:focus-visible {
-    outline: 4px auto -webkit-focus-ring-color;
+    outline: 2px auto -webkit-focus-ring-color;
 }
 
 .specialBtn {
-    border-color: rgba(0, 0, 0, 0.619);
+    border-color: oklch(0.496 0.265 301.924);
 }
 
 .specialBtnDark {
-    border-color: oklch(0.438 0.218 303.724);
+    border-color: oklch(0.496 0.265 301.924);
     color: white;
 }
 
 .specialBtn:hover {
-    border-color: oklch(0.438 0.218 303.724);
-    background-color: oklch(0.438 0.218 303.724 / .2);
+    background-color: oklch(0.496 0.265 301.924 / .15);
+    color: black;
 }
