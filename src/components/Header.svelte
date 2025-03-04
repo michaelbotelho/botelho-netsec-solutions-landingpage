@@ -1,6 +1,7 @@
 <script>
     import { isDropdownOpen } from '../store';
     import { onMount } from 'svelte';
+    import CtAs from './CTAs.svelte';
     
     let dropdownOpen = false;
     
@@ -69,6 +70,7 @@
                         FAQs
                         <i class="fa-solid fa-chevron-right text-lg px-2"></i>
                     </a>
+                    <div class="p-2 px-2"><CtAs /></div>
                     
                 </div>
             </div>        
