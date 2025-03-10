@@ -5,8 +5,6 @@
 </script>
 
 <SectionWrapper>
-    <Header />
-
     <div
         class="flex flex-col gap-10 flex-1 items-center justify-center pb-10 md:pb-14"
     >
@@ -18,7 +16,7 @@
             to <span class="text-slate-500 underline">your business</span>
             <br />
         </h2>
-        <p class="text-xl sm:text-2xl md:text-3xl text-center max-w-[1000px] mx-auto w-full">
+        <p class="text-xl sm:text-2xl md:text-3xl text-center px-4 max-w-[1000px] mx-auto w-full">
             We provide a range of services to help you secure your network and
             protect your data. Our team of experts will work with you to develop
             a solution that meets your needs and fits your budget.
