@@ -1,6 +1,7 @@
 <script>
+    import { goto } from "$app/navigation";
     function reroute() {
-        window.location.href = "/contact";
+        goto("/contact");
     }
 </script>
 
