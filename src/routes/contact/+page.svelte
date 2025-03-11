@@ -1,3 +1,7 @@
+<script>
+    import ContactCard from "../../components/ContactCard.svelte";
+</script>
+
 <main class="flex flex-col">
-    <p>Contact Page</p>
+    <ContactCard />
 </main>
