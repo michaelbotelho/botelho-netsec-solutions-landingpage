@@ -61,11 +61,14 @@ button:focus-visible {
 }
 
 .specialBtnDark {
-    border-color: oklch(0.496 0.265 301.924);
-    color: white;
+    background-color: white;
+    color: oklch(0.496 0.265 301.924);
 }
 
 .specialBtn:hover {
     background-color: oklch(0.496 0.265 301.924 / .15);
     color: black;
+}
+.specialBtnDark:hover {
+    background-color: oklch(0.946 0.033 307.174);
 }
