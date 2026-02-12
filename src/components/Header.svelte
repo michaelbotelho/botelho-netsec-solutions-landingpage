@@ -1,4 +1,5 @@
 <script>
+    import Layout from '../routes/+layout.svelte';
     import { isDropdownOpen } from '../store';
     import { onMount } from 'svelte';
     import CtAs from './CTAs.svelte';
@@ -31,7 +32,7 @@
             <a class="duration-200 [&:hover]:text-purple-700 cursor-pointer">Reviews</a>
             <a class="duration-200 [&:hover]:text-purple-700 cursor-pointer">Pricing</a>
             <a class="duration-200 [&:hover]:text-purple-700 cursor-pointer">FAQs</a>
-            <button class="specialBtn">
+            <button class="specialBtn" href="/contact" on:click={reroute}>
                 <p>Secure your network</p> 
             </button>
         </nav>
