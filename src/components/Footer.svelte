@@ -5,15 +5,15 @@
         <div class="flex flex-col gap-4 md:col-span-2">
             <a href="/" class="flex items-center">
                 <img
-                    src="favicon.png"
-                    alt="Botelho NetSec Solutions"
+                    src="favicon.svg"
+                    alt="Satum Digital"
                     class="w-10 h-10 mr-4"
                 />
                 <h1 class="text-lg md:text-xl lg:text-2xl font-bold">
-                    Botelho NetSec Solutions
+                    Satum Digital
                 </h1>
             </a>
-            <p class="text-slate-500">&copy;2025 Botelho NetSec Solutions. All rights reserved.</p>
+            <p class="text-slate-500">&copy;2026 Satum Digital. All rights reserved.</p>
         </div>
         <div class="flex flex-col gap-4">
             <p class="font-bold poppins text-base sm:text-lg">Company</p>
@@ -54,6 +54,20 @@
                 class="cursor-pointer text-slate-500 [&:hover]:text-slate-400 duration-200"
             >
                 Consulting
+            </a>
+            <a
+                href=""
+                target="_blank"
+                class="cursor-pointer text-slate-500 [&:hover]:text-slate-400 duration-200"
+            >
+                Managed IT Services
+            </a>
+            <a
+                href=""
+                target="_blank"
+                class="cursor-pointer text-slate-500 [&:hover]:text-slate-400 duration-200"
+            >
+                Software Solutions
             </a>
         </div>
     </div>
