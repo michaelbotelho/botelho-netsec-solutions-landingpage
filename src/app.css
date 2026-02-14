@@ -1,5 +1,20 @@
 @import "tailwindcss";
 
+:root {
+  /* Color Palette */
+  --blue-500: #0000ff;
+  --green-500: #008000;
+  --dark-green: #006400;
+  --white: #ffffff;
+  --black: #000000;
+
+  /* Functional Names (connecting to branding colours) */
+  --link-color: var(--blue-500);
+  --banner-bg: var(--green-500);
+  --page-bg: var(--white);
+  --text-color: var(--black);
+}
+
 
 html {
     scroll-behavior: smooth;
@@ -11,6 +26,15 @@ a,
 p,
 .inter {
     font-family: 'Inter', sans-serif;
+}
+.navlinks:hover {
+    /* duration-200 [&:hover]:text-purple-700 cursor-pointer */
+    cursor: pointer;
+    transition-duration: 200ms;
+    color: oklch(61.927% 0.20448 259.792);
+}
+.highlight {
+    color: oklch(61.927% 0.20448 259.792);
 }
 
 h1,
@@ -48,7 +72,9 @@ button,
 }
 
 button:hover {
-    color: oklch(0.496 0.265 301.924);
+    cursor: pointer;
+    transition-duration: 200ms;
+    color: oklch(61.927% 0.20448 259.792);
 }
 
 button:focus,
@@ -57,18 +83,22 @@ button:focus-visible {
 }
 
 .specialBtn {
-    border-color: oklch(0.496 0.265 301.924);
+    border-color: oklch(61.927% 0.20448 259.792);
 }
 
 .specialBtnDark {
-    background-color: white;
-    color: oklch(0.496 0.265 301.924);
+    color: oklch(61.927% 0.20448 259.792);
+    border-color: oklch(61.927% 0.20448 259.792);
 }
 
 .specialBtn:hover {
-    background-color: oklch(0.496 0.265 301.924 / .15);
+    background-color: oklch(64.082% 0.18012 257.583 / 0.30);
     color: black;
+    cursor: pointer;
+    transition-duration: 200ms;
 }
 .specialBtnDark:hover {
-    background-color: oklch(0.946 0.033 307.174);
+    background-color: oklch(64.082% 0.18012 257.583 / 0.30);
+    cursor: pointer;
+    transition-duration: 200ms;
 }

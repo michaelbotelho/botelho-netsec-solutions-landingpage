@@ -6,14 +6,14 @@
 
 <SectionWrapper>
     <div
-        class="flex flex-col gap-10 flex-1 items-center justify-center pb-10 md:pb-14 text-white bg-gradient-to-tr from-purple-500 to-purple-300"
+        class="flex flex-col gap-10 flex-1 items-center justify-center pb-10 md:pb-14 "
     >
         <h2
             class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl max-w-[1400px] mx-auto w-full text-center font-medium"
         >
-            <span class="text-purple-600">Secure</span> your network<br />
-            with solutions <span class="text-purple-600">tailored</span><br />
-            to <span class="underline">your business</span>
+            <span class="highlight">Secure</span> your network<br />
+            with solutions <span class="highlight">tailored</span><br />
+            to <span class="highlight underline">your business</span>
             <br />
         </h2>
         <p class="text-xl sm:text-2xl md:text-3xl text-center px-4 max-w-[1000px] mx-auto w-full">
